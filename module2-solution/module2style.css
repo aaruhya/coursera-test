@@ -1,0 +1,117 @@
+      *{
+		box-sizing: border-box;
+		position: relative;
+		align-content: center;
+	}
+	h1 {
+		align-content: center;
+		text-align: center;
+		
+	}
+
+	  div
+	  {
+	  	margin: auto;
+
+	  }
+
+	  div.container
+	  {
+	  	margin:auto;
+	  	align-content: center;
+	  }
+
+	  div.enclosure
+	  {
+	  	padding: 10px;
+	  	width: 33%;
+	  	float: left;
+	  }
+
+      div.section{
+      	border: 1px solid black;
+      	background-color: lightgray;
+      	margin: 10px;
+      }
+
+      div.sectionHeader
+      {
+      	border: 1px solid black;
+      	border-color: black;
+      	float: right;
+      	font-size: 20px;
+      	width: 100px;
+      	text-align: center;
+      	font-weight: 500;
+      	margin: -1px -1px 0px 0px;
+      }
+
+      div.sectionContent
+      {
+      	padding: 5px;
+      	margin: 20px 0px 0px 0px;
+      }
+
+      #first{
+      	background-color: #C390D4;
+      }
+      #second{
+      	background-color: #A1D490;
+      }
+      #third{
+      	background-color: #D4A190;
+      }
+
+      @media(min-width: 992px) {
+      		div.section{
+      			
+      			margin-right: 10px;
+      		}
+      }
+
+      @media (max-width:991px) and (min-width:768px)
+      {
+      	div.enclosure
+      	{
+      		width: 50%;
+      		float:left;
+      	}
+
+      	div.fullsection{
+      		width: 100%;
+      		clear:left;
+      	}
+      }
+
+      @media(max-width:767px)
+      {
+      	div.enclosure
+      	{
+      		width: 350px;
+      		float:none;
+      		width: 80%;
+      	}
+      	div.section{
+      		border: 1px solid black;
+      		float: none;
+      		margin: 10px;
+      	}
+
+	      	div.sectionHeader
+	      {
+	      	border: 1px solid black;
+	      	border-color: black;
+	      	
+	      	font-size: 20px;
+	      	width: 100px;
+	      	text-align: center;
+	      	font-weight: 500;
+	      	margin: -1px -1px 0px 0px;
+	      }
+
+	      div.sectionContent
+	      {
+	      	padding: 5px;
+	      	
+	      }
+      }
