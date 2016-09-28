@@ -44,7 +44,7 @@ WARNING!!! WARNING!!!
     // 'speak' method.
     // See Lecture 50, part 1
     var i;
-    console.log(names.length);
+    
     for (i=0; i< names.length ; i++) {
       
       // STEP 11:
